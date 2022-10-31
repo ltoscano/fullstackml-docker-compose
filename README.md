@@ -40,8 +40,8 @@ it clear, MinIO Client (mc) provides an alternative to UNIX commands like ls, ca
 
 Notes:
 
-- Docker Compose allows you to access environment variables from the compose file `docker-compose.yml`. All variables (usernames, passwords, db name, access 
-keys) used in the compose file are declared in `.env`.
+- Docker Compose allows you to access environment variables from the compose file `docker-compose.yml`. All variables (usernames, passwords, db names, access 
+keys) used in the compose file are declared in the hidden file `.env`.
 
-- Often the TCP/5000 port used by the MLflow UI is also used by other applications. For this reason, I mapped this port to TCP/5050 on the host machine. 
+- Often the TCP/5000 port used by the MLflow UI is also (ab)used by other applications. For this reason, I mapped this port to TCP/5050 on the host machine. 
 Anyway, the port mapping can be easily changed by editing the compose file.
