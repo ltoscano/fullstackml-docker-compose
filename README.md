@@ -38,7 +38,10 @@ provides an alternative to UNIX commands like ls, cat, cp, mirror, diff, find et
 
 5. Access MinIO UI with http://localhost:9000
 
-Note:
+Notes:
 
 - Docker Compose allows you to access environment variables from the compose file `docker-compose.yml`. All variables (usernames, passwords, db name, access 
 keys) used in the compose file are declared in `.env`.
+
+- Often the TCP/5000 port used by the MLflow UI is also used by other applications. For this reason, I mapped this port to TCP/5050 on the host machine. 
+Anyway, the port mapping can be easily changed by editing the compose file.
