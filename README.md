@@ -14,8 +14,8 @@ The stack is composed of 3 docker containers:
 * MinIO object storage server
 * MySQL database server
 
-A fourth container based on the [minio/mc](https://github.com/minio/mc) image is used to automatically create the myflow bucket on MinIO S3. MinIO Client (mc) 
-provides an alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. by supporting filesystems and Amazon S3 compatible cloud storage service 
+A fourth container based on the [minio/mc](https://github.com/minio/mc) image is used to automatically create the mlflow bucket on MinIO S3. Just to make 
+it clear, MinIO Client (mc) provides an alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. by supporting filesystems and Amazon S3 compatible cloud storage service 
 (AWS Signature v2 and v4).
 
 ## How to run
