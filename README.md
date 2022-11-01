@@ -5,8 +5,8 @@
 Includes MLflow On-Premise Deployment using Docker Compose. Original repository is 
 [sachua/mlflow-docker-compose](https://github.com/sachua/mlflow-docker-compose.git). The original repository has been modified to create 
 images based on the last version of Minio and MLflow version 1.28.0 (compatible with PyCaret). The version of MySQL being used is 8.0.30. At the time this 
-file was written, the latest available version of PyCaret is 2.3.10. Particular effort was placed on making the stack compatible with the use of PyCaret as 
-well.
+file was written, the latest available version of PyCaret is 2.3.10 and the release of MinIO is 2022-10-29T06-21-33Z. Particular effort was placed on 
+making the stack compatible with the use of PyCaret as well. 
 
 MinIO S3 is used as the artifact store and MySQL server is used as the backend store.
 
