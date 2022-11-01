@@ -1,4 +1,4 @@
 cryptography
 boto3
-mlflow
+mlflow==1.28.0
 pymysql
